@@ -1,32 +1,63 @@
-# Prerequisites
-*.d
+CMDLINE
+INSTALL
+Makefile
+Makefile.in
+TAGS
+aclocal.m4
+autom4te.cache
+autotools
+bin
+config.h
+config.hin
+config.log
+config.status
+configure
+lib
+obj
+rpm.spec
+stamp-h
+stamp-h.in
+stamp-h1
+tags
+\#*\#
+DOOM*.png
+HTIC*.png
+HEXEN*.png
+STRIFE*.png
+DOOM*.pcx
+HTIC*.pcx
+HEXEN*.pcx
+STRIFE*.pcx
 
-# Compiled Object files
-*.slo
-*.lo
+# CMake-specific ignores
+/.vs
+/build*
+/CMakeSettings.json
+/out
+
+# These are the default patterns globally ignored by Subversion:
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+*.lo
 *.la
+*.al
+.libs
+*.so
+*.so.[0-9]*
 *.a
-*.lib
+*.pyc
+*.pyo
+*.rej
+*~
+.#*
+.*.swp
+.DS_store
 
-# Executables
-*.exe
-*.out
-*.app
+# Ignore GNU Global tags and html files
+GPATH
+GRTAGS
+GTAGS
+/HTML/
+
+# VSCode settings
+
+/.vscode/

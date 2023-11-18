@@ -1,0 +1,218 @@
+"C:\Program Files\JetBrains\CLion 2023.1.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\ahmet\OneDrive\Masaüstü\crispy-doom-master\crispy-doom-master -B C:\Users\ahmet\OneDrive\Masaüstü\crispy-doom-master\crispy-doom-master\cmake-build-debug
+-- Could NOT find SDL2 (missing: SDL2_INCLUDE_DIR SDL2_LIBRARIES) (Required is at least version "2.0.14")
+-- Could NOT find SDL2_mixer (missing: SDL2_MIXER_INCLUDE_DIR SDL2_MIXER_LIBRARY) (Required is at least version "2.0.2")
+-- Could NOT find SDL2_net (missing: SDL2_NET_INCLUDE_DIR SDL2_NET_LIBRARY) (Required is at least version "2.0.0")
+-- Could NOT find SampleRate (missing: SAMPLERATE_INCLUDE_DIR SAMPLERATE_LIBRARY) 
+-- Could NOT find PNG (missing: PNG_LIBRARY PNG_PNG_INCLUDE_DIR) 
+-- Could NOT find FluidSynth (missing: FluidSynth_LIBRARIES FluidSynth_INCLUDE_DIRS) (Required is at least version "2.2.0")
+-- Configuring done (1.2s)
+CMake Error at textscreen/CMakeLists.txt:28 (target_link_libraries):
+  Target "textscreen" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at opl/CMakeLists.txt:15 (target_link_libraries):
+  Target "opl" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at pcsound/CMakeLists.txt:11 (target_link_libraries):
+  Target "pcsound" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:36 (target_link_libraries):
+  Target "crispy-server" links to:
+
+    SDL2::SDL2main
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:159 (target_link_libraries):
+  Target "crispy-doom" links to:
+
+    SDL2::SDL2main
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:173 (target_link_libraries):
+  Target "crispy-heretic" links to:
+
+    SDL2::SDL2main
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:187 (target_link_libraries):
+  Target "crispy-hexen" links to:
+
+    SDL2::SDL2main
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:201 (target_link_libraries):
+  Target "crispy-strife" links to:
+
+    SDL2::SDL2main
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:233 (target_link_libraries):
+  Target "crispy-setup" links to:
+
+    SDL2::SDL2main
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:252 (target_link_libraries):
+  Target "midiread" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/CMakeLists.txt:257 (target_link_libraries):
+  Target "mus2mid" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/doom/CMakeLists.txt:85 (target_link_libraries):
+  Target "doom" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/heretic/CMakeLists.txt:60 (target_link_libraries):
+  Target "heretic" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/hexen/CMakeLists.txt:60 (target_link_libraries):
+  Target "hexen" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/strife/CMakeLists.txt:74 (target_link_libraries):
+  Target "strife" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+CMake Error at src/setup/CMakeLists.txt:19 (target_link_libraries):
+  Target "setup" links to:
+
+    SDL2::SDL2
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+
+-- Generating done (0.1s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -1,0 +1,28 @@
+1 ICON "C:/Users/ahmet/OneDrive/Masaüstü/crispy-doom-master/crispy-doom-master/data/setup.ico"
+
+1 24 MOVEABLE PURE "C:/Users/ahmet/OneDrive/Masaüstü/crispy-doom-master/crispy-doom-master/cmake-build-debug/src/setup/setup-manifest.xml"
+
+1 VERSIONINFO
+PRODUCTVERSION 6, 0, 0, 0
+FILEVERSION 6, 0, 0, 0
+FILETYPE 1
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "FileVersion", "6.0.0.0"
+   VALUE "FileDescription", "Crispy Doom 6.0.0 Setup"
+   VALUE "InternalName", "crispy-doom"
+   VALUE "CompanyName", "https://github.com/fabiangreffrath/crispy-doom/issues"
+   VALUE "LegalCopyright", "GNU General Public License"
+   VALUE "ProductName", "Crispy Doom Setup"
+   VALUE "ProductVersion", "6.0.0"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x409, 1252
+ }
+}
+
